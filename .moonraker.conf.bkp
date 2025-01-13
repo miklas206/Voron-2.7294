@@ -139,3 +139,10 @@ install_script = install.sh
 managed_services = 
 	octoapp
 
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
